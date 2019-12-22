@@ -1,0 +1,23 @@
+{
+  "version": "9",
+  "items": {
+    "138fef1a97cd02ce2e7743a280f460ff": {
+      "src": "/home/daz/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-html-js/0.6.11/437ff89bf6829c8e24eb1aa8dbcdcc6cc36f5543/kotlinx-html-js-0.6.11.jar",
+      "target": "kotlinx-html-js/0.6.11"
+    },
+    "3c9f202582702cc18adab07cf43fe00b": {
+      "src": "/home/daz/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-js/1.3.61/7e6dc566af3ebaa2cf6abf227bee7a5c87d54d09/kotlin-stdlib-js-1.3.61.jar",
+      "target": "kotlin/1.3.61"
+    },
+    "23dcb87f7654b0f64ab5374c2e4453f8": {
+      "src": "/home/daz/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.61/65abb71d5afb850b68be03987b08e2c864ca3110/kotlin-stdlib-common-1.3.61.jar"
+    },
+    "22dbca655998262f3757f6c3cee1c172": {
+      "src": "/home/daz/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-html-common/0.6.11/75d2a124cfc653170d8e51cfe2db3c5156a5f5c9/kotlinx-html-common-0.6.11.jar"
+    },
+    "58882a51c6035ed980362a39d7420017": {
+      "src": "/home/daz/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-source-map-loader/1.3.61/a3f00aade3875bbe2232b0e6e0b5d50037e43a0/kotlin-source-map-loader-1.3.61.jar",
+      "target": "kotlin-source-map-loader/1.3.61"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/untitled",
+    "packages_imported/kotlinx-html-js/0.6.11",
+    "packages_imported/kotlin/1.3.61",
+    "packages_imported/kotlin-source-map-loader/1.3.61"
+  ],
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": [],
+  "name": "untitled",
+  "version": "1.0-SNAPSHOT"
+}
