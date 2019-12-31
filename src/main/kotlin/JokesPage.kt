@@ -32,9 +32,9 @@ class JokesPage(private val presenter: JokeContract.Presenter) : JokeContract.Vi
                 }
 
                 onSubmitFunction = { event ->
-                    val element = document.getElementById("name") as HTMLInputElement
-                    if (element.value.isNotEmpty())
-                        presenter.loadJokes(element.value)
+                    val nameElement = document.getElementById("name") as HTMLInputElement
+                    if (nameElement.value.isNotEmpty())
+                        presenter.loadJokes(nameElement.value)
                     else
                         window.alert("Please place some name")
                     event.preventDefault()

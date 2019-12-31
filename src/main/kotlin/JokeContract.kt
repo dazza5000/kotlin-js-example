@@ -7,6 +7,6 @@ interface JokeContract {
 
     interface Presenter {
         fun attach(view: View)
-        fun loadJokes(input: String)
+        fun loadJokes(name: String)
     }
 }

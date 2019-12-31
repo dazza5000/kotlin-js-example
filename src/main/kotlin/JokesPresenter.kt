@@ -1,3 +1,4 @@
+import model.RandomJokeResponse
 import org.w3c.xhr.XMLHttpRequest
 
 class JokesPresenter : JokeContract.Presenter {
@@ -7,9 +8,9 @@ class JokesPresenter : JokeContract.Presenter {
         this.view = view
     }
 
-    override fun loadJokes(input: String) {
+    override fun loadJokes(name: String) {
         view.showLoader()
-        getAsync("https://api.icndb.com/jokes/random?firstName=$input&escape=javascript") {
+        getAsync("https://api.icndb.com/jokes/random?firstName=$name&escape=javascript") {
             val joke = JSON.parse<RandomJokeResponse>(it)
 
             view.hideLoader()
